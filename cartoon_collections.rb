@@ -20,8 +20,9 @@ planeteer_calls = %w[earth wind fire water heart]
 def summon_captain_planet(planeteer_calls)# code an argument here
   # Your code here
   planeteer_calls.map { |call| call.capitalize + '!' }
-
 end
+summon_captain_planet(planeteer_calls)
+
 
 def long_planeteer_calls# code an argument here
   # Your code here
